@@ -13,7 +13,7 @@ window.addEventListener('DOMContentLoaded', () => {
       });
     }
     
-    // Update the keyframes to match the total width of the cloned items
+    // Updates the keyframes to match the total width of the cloned items
     const trackWidth = track.scrollWidth;
     const styleSheet = document.createElement("style");
     styleSheet.type = "text/css";
@@ -29,4 +29,4 @@ window.addEventListener('DOMContentLoaded', () => {
     `;
     document.head.appendChild(styleSheet);
   });
-  // Javascript for Partnerships section ends here
+  // Javascript for Partnerships section end here
